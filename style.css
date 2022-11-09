@@ -1,0 +1,117 @@
+body {
+    box-sizing: border-box;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    margin: 0 auto;
+    padding: 13px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+    overflow-x: hidden;
+
+    
+}
+
+img {
+    width: 300px;
+    border-radius: 8px;
+    
+}
+
+.details {
+    padding: 20px;
+}
+
+.details > h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.details > .subtext {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Outfit', sans-serif;
+    line-height: 25px;
+}
+
+.figures {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1.5px hsl(215, 32%, 27%);
+    align-items: center;
+
+}
+
+.figures img {
+    width: 12px;
+    padding-top: 0;
+}
+
+.etherum {
+    display: grid;
+    grid-template-columns: 30px 100px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.etherum img {
+    width: 16px;
+}
+
+.etherum p {
+    color: hsl(178, 100%, 50%);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.duration {
+    display: grid;
+    grid-template-columns: 40px 100px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.duration img {
+    width: 21px;
+
+}
+
+.duration p {
+    color: hsl(215, 51%, 70%);
+}
+
+span {
+    color: hsl(215, 51%, 70%);
+}
+
+p {
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    display: inline-block;
+}
+
+.profile {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.creator > img {
+    border: 1px solid hsl(0, 0%, 100%);
+}
